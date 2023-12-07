@@ -1,0 +1,53 @@
+{
+	"name": "@ctx-core/nodejs",
+	"version": "0.1.0",
+	"description": "ctx-core nodejs",
+	"keywords": [
+		"ctx-core",
+		"nodejs"
+	],
+	"homepage": "https://github.com/ctx-core/nodejs#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/nodejs/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/nodejs.git"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
+	"type": "module",
+	"files": [
+		"*.d.ts",
+		"*.js",
+		"*.json",
+		"./IncomingMessage__request"
+	],
+	"types": "./index.d.ts",
+	"exports": {
+		".": "./index.js",
+		"./package.json": "./package.json"
+	},
+	"scripts": {
+		"build": ":",
+		"clean": ":",
+		"exec": "$@",
+		"prepublishOnly": "pnpm clean && pnpm build && pnpm test",
+		"test": "pnpm test-unit && check-dts",
+		"test-unit": "tsx node_modules/uvu/bin.js . '\\.test\\.(ts|js)$'",
+		"test-unit-coverage": "c8 pnpm test-unit"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"c8": "^8.0.1",
+		"check-dts": "^0.7.2",
+		"tsx": "^4.6.2",
+		"typescript": "next",
+		"uvu": "^0.5.6"
+	},
+	"publishConfig": {
+		"access": "public",
+		"cache": "~/.npm"
+	},
+	"sideEffects": false
+}
