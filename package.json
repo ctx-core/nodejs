@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/nodejs",
-	"version": "0.2.0",
+	"version": "0.3.0",
 	"description": "ctx-core nodejs",
 	"keywords": [
 		"ctx-core",
@@ -22,6 +22,7 @@
 		"*.js",
 		"*.json",
 		"./IncomingMessage__request",
+		"./is_entry_file",
 		"./response__ServerResponse"
 	],
 	"types": "./index.d.ts",
