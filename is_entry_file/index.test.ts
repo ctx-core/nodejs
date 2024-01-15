@@ -1,4 +1,4 @@
-import { resolve } from 'path'
+import { resolve } from 'node:path'
 import { test } from 'uvu'
 import { equal } from 'uvu/assert'
 import { is_entry_file_ } from './index.js'
