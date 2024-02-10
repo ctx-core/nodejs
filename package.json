@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/nodejs",
-	"version": "0.3.2",
+	"version": "0.3.3",
 	"description": "ctx-core nodejs",
 	"keywords": [
 		"ctx-core",
@@ -44,7 +44,7 @@
 	"devDependencies": {
 		"c8": "^9.1.0",
 		"check-dts": "^0.7.2",
-		"tsx": "^4.7.0",
+		"tsx": "^4.7.1",
 		"typescript": "next",
 		"uvu": "^0.5.6"
 	},
