@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/nodejs",
-	"version": "0.3.3",
+	"version": "0.3.4",
 	"description": "ctx-core nodejs",
 	"keywords": [
 		"ctx-core",
@@ -15,7 +15,11 @@
 		"url": "https://github.com/ctx-core/nodejs.git"
 	},
 	"license": "Apache-2.0",
-	"author": "Brian Takita",
+	"author": {
+		"name": "Brian Takita",
+		"url": "https://briantakita.me",
+		"email": "info+ctx-core-@briantakita.me"
+	},
 	"type": "module",
 	"files": [
 		"*.d.ts",

@@ -1,5 +1,11 @@
 # @ctx-core/nodejs
 
+## 0.3.4
+
+### Patch Changes
+
+- package.json: author: url,email
+
 ## 0.3.3
 
 ### Patch Changes
