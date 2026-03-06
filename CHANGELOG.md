@@ -1,5 +1,11 @@
 # @ctx-core/nodejs
 
+## 0.3.6
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+
 ## 0.3.5
 
 ### Patch Changes
